@@ -10,6 +10,6 @@ on:
 
 jobs:
    release:
-      uses: davidgamero/action-release-workflows/.github/workflows/release_js_project.yaml@david
+      uses: davidgamero/action-release-workflows/.github/workflows/release_js_project.yaml
       with:
          changelogPath: ./CHANGELOG.md
