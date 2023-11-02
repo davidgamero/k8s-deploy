@@ -4,7 +4,7 @@
    "author": "Deepak Sattiraju",
    "license": "MIT",
    "scripts": {
-      "build": "npx ncc build src/run.ts -o lib",
+      "build": "npm i ncc && npx ncc build src/run.ts -o lib",
       "test": "jest",
       "coverage": "jest --coverage=true",
       "format": "prettier --write .",
@@ -18,7 +18,8 @@
       "@octokit/core": "^3.5.1",
       "@octokit/plugin-retry": "^3.0.9",
       "@types/minipass": "^3.1.2",
-      "js-yaml": "3.13.1"
+      "js-yaml": "3.13.1",
+      "ncc": "^0.3.6"
    },
    "devDependencies": {
       "@types/jest": "^26.0.0",
