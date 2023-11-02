@@ -11,5 +11,5 @@ on:
 jobs:
    release:
      uses: davidgamero/action-release-workflows/.github/workflows/release_js_project.yaml@main
-      with:
+     with:
          changelogPath: ./CHANGELOG.md
