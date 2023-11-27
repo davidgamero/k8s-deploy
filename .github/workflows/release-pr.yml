@@ -4,6 +4,7 @@ on:
    push:
       branches:
          - main
+         - david
       paths:
          - CHANGELOG.md
    workflow_dispatch:
